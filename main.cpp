@@ -56,11 +56,11 @@ void Keyboard(unsigned char key, int x, int y){
             meshOut->gerateMesh(camOut->getMesh());
             break;
             
-        case 'f': case 'F': //Geração de malha sem suavisação
-            meshOut->gerateMesh(camOut->getMesh());
+        case 'r': case 'R': //Recarrega a luz
+            meshOut->resetLigth();
             break;
         
-       case 19: // Crtl + S - Valvamento automatico
+        case 19: // Crtl + S - Valvamento automatico
             meshOut->saveMesh(camOut->getTimeName());
             break;
         

@@ -40,6 +40,7 @@ public:
     void saveMesh();
     void saveMesh(string name);
     void setLimitPoints();
+    void resetLigth();
     void calcBoundingBox();
     
     void setPMode();

@@ -280,6 +280,10 @@ void MeshOut::setLimitPoints(){
              MeshControl::pointMax.z);
 }
 
+void MeshOut::resetLigth(){
+    initLight();
+}
+
 void MeshOut::calcBoundingBox(){
 
     if(MeshControl::pointMin.x < pointMin.x){
