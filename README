@@ -13,10 +13,10 @@ Plataformas: Ubuntu, Mac OS, Windows;
 - pthreads
 
 === Atalhos:
-- O -- Aumenta a distancia do limite maximo;
-- I -- Diminue a distancia do limite maximo;
+- O -- Aumenta a distancia do limite máximo;
+- I -- Diminui a distancia do limite máximo;
 - L -- Aumenta a distancia do limite minimo;
-- K -- DIminue a distancia do limite minimo;
+- K -- Diminui a distancia do limite minimo;
 
 - G -- Gera a malha;
 - R -- Recarrega a luz;
@@ -27,12 +27,11 @@ Plataformas: Ubuntu, Mac OS, Windows;
 
  	Botão direito na janela MeshOut mostra um pequeno menu com algumas opções.
 
-=== Pequenas esplicações:
+=== Pequenas explicações:
 
 - AbstractOut::Classe para criação de janelas 640*480 usando o OpenGL
-- CamOut::Classe de controle de janela para a CamOut (Janela de saida do Kinect)
+- CamOut::Classe de controle de janela para a CamOut (Janela de saída do Kinect)
 - MeshOut::Classe de controle de janela para a MeshOut (Visão da malha 3D)
-- MeshControl::Biblioteca para controlhe de malha
-- libView::Bibiotecla para controlhe de visão 3D
-
+- MeshControl::Biblioteca para controle de malha
+- libView::Biblioteca para controle de visão 3D
 
