@@ -2,7 +2,8 @@
 Criação de malha com o Kinect TM
 
 === Especificações
-Linguagem: C++
+
+Linguagem: C++;
 Plataformas: Ubuntu, Mac OS, Windows;
 
 === Requisitos
@@ -25,7 +26,7 @@ Plataformas: Ubuntu, Mac OS, Windows;
 
 - Esc - Finaliza o programa;
 
- 	Botão direito na janela MeshOut mostra um pequeno menu com algumas opções.
+Botão direito na janela MeshOut mostra um pequeno menu com algumas opções.
 
 === Pequenas explicações:
 
