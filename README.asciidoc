@@ -1,0 +1,37 @@
+== K_Malha
+Criação de malha com o Kinect TM
+
+=== Especificações
+Linguagem: C++
+Plataformas: Ubuntu, Mac OS, Windows;
+
+=== Requisitos
+
+- libusb-1.0 >= 1.0.3 (Linuz e Mac OS)
+- libusb-win32 (Windows)
+- OpenGL
+- pthreads
+
+=== Atalhos:
+- O -- Aumenta a distancia do limite máximo;
+- I -- Diminui a distancia do limite máximo;
+- L -- Aumenta a distancia do limite minimo;
+- K -- Diminui a distancia do limite minimo;
+
+- G -- Gera a malha;
+- R -- Recarrega a luz;
+- S -- Gera e Salva um arquivo OBJ com a Malha 3D;
+- Ctrl+S -- Gera e salva um arquivo OBJ com um nome padrão;
+
+- Esc - Finaliza o programa;
+
+ 	Botão direito na janela MeshOut mostra um pequeno menu com algumas opções.
+
+=== Pequenas explicações:
+
+- AbstractOut::Classe para criação de janelas 640*480 usando o OpenGL
+- CamOut::Classe de controle de janela para a CamOut (Janela de saída do Kinect)
+- MeshOut::Classe de controle de janela para a MeshOut (Visão da malha 3D)
+- MeshControl::Biblioteca para controle de malha
+- libView::Biblioteca para controle de visão 3D
+
