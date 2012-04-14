@@ -64,7 +64,7 @@ void CamOut::initKinect(){
     cout << "Kinect camera test" << endl;
 
 	if (freenect_init(&f_ctx, NULL) < 0){
-		cout << "Falha ao carregar o Kinect\n" << endl;
+		cout << "Failed to load the Kinect\n" << endl;
         exit(0);
     }
 	freenect_set_log_level(f_ctx, FREENECT_LOG_DEBUG);
@@ -73,7 +73,7 @@ void CamOut::initKinect(){
 
 	if ((freenect_open_device(f_ctx, &f_dev, 0) < 0) ||
 		(pthread_create(&freenect_thread, NULL, freenect_threadfunc, NULL))){
-		cout << "Falha ao carregar o Kinect\n" << endl;
+		cout << "Failed to load the Kinect\n" << endl;
         exit(0);
     }
 }
