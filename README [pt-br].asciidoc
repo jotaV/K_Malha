@@ -1,6 +1,6 @@
 == K_Malha
 
-Criação de malha com o Kinect TM
+Criação de malha com o Kinect(TM)
 
 === Especificações
 

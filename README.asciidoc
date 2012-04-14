@@ -1,10 +1,5 @@
 == K_Malha
-3D mesh generator with Kinect (TM)
-
-=== Especificações
-
-Linguagem: C++;
-Plataformas: Ubuntu, Mac OS, Windows;
+3D mesh generator with Kinect(TM)
 
 === Specifications
 
@@ -35,9 +30,9 @@ Platform: Ubuntu, Mac Os, Windows (No Tested);
 === Function Mouse:
 
 - In the MeshOut window:
-- - Change the view of the mesh;
-- - + Ctrl -- approach the view of the mesh;
-- - + Shift -- move de mesh.
+	- Change the view of the mesh;
+	- + Ctrl -- approach the view of the mesh;
+	- + Shift -- move de mesh.
 
 - In the CamOut window: Dont work.
 
