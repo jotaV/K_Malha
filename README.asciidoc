@@ -1,6 +1,10 @@
 == K_Malha
-
 3D mesh generator with Kinect (TM)
+
+=== Especificações
+
+Linguagem: C++;
+Plataformas: Ubuntu, Mac OS, Windows;
 
 === Specifications
 
