@@ -30,14 +30,14 @@ Platform: Ubuntu, Mac Os, Windows (No Tested);
 - S -- Save a OBJ file with the 3D mesh;
 - Ctrl+S -- Save a OBJ file with the 3D mesh with default name.
 
-- Esc - Quits the program;
+- Esc -- Quits the program;
 
 === Function Mouse:
 
 - In the MeshOut window:
--- Change the view of the mesh;
--- + Ctrl -- approach the view of the mesh;
--- + Shift -- move de mesh.
+- - Change the view of the mesh;
+- - + Ctrl -- approach the view of the mesh;
+- - + Shift -- move de mesh.
 
 - In the CamOut window: Dont work.
 

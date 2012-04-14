@@ -26,14 +26,14 @@ Plataformas: Ubuntu, Mac OS, Windows;
 - S -- Salva um arquivo OBJ com a Malha 3D;
 - Ctrl+S -- Salva um arquivo OBJ com um nome padrão;
 
-- Esc - Finaliza o programa;
+- Esc -- Finaliza o programa;
 
 === Funções so mouse:
 
 - Na janela MeshOut:
--- Muda a visão de malha
--- + Ctrl - Aprocima a visão com a malha
--- + Shift - Move a malha em relação à cámera
+- - Muda a visão de malha
+- - + Ctrl - Aprocima a visão com a malha
+- - + Shift - Move a malha em relação à cámera
 
 - Na janela CamOut: Não funciona.
 

@@ -1,13 +1,10 @@
 == K_Malha
-
-<<<<<<< HEAD
 3D mesh generator with Kinect (TM)
-=======
+
 === Especificações
 
 Linguagem: C++;
 Plataformas: Ubuntu, Mac OS, Windows;
->>>>>>> 5820ba32230a749fc15251f903ae8fab2251d87c
 
 === Specifications
 
@@ -42,11 +39,7 @@ Platform: Ubuntu, Mac Os, Windows (No Tested);
 -- + Ctrl -- approach the view of the mesh;
 -- + Shift -- move de mesh.
 
-<<<<<<< HEAD
 - In the CamOut window: Dont work.
-=======
-Botão direito na janela MeshOut mostra um pequeno menu com algumas opções.
->>>>>>> 5820ba32230a749fc15251f903ae8fab2251d87c
 
 Right Button of the mouse in the window MeshOut show a small menu with some options.
 
