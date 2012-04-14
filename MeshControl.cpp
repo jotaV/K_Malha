@@ -59,22 +59,22 @@ Group* MeshControl::gerateGroup(uint16_t *mesh, int var = 1){
         
         switch(form[k]){
             case 0:{
-                cout << "   Gerando Vertices" << endl;
+                cout << "   generating Vertices" << endl;
                 gerateVertices(group, mesh, var);
             }break;
 
             case 1:{
-                cout << "   Gerando Faces" << endl;
+                cout << "   generating Faces" << endl;
                 gerateFaces(group, var);
             }break;
 
             case 2:{
-                cout << "   Calculando Normais" << endl;
+                cout << "   generating Normals" << endl;
                 gerateNormals(group);
             }break;
 
             case 3:{
-                cout << "   Suavizando" << endl;
+                cout << "   Smoothing" << endl;
                 int auxVector[] = {1, 3, 5, 10};
 
                 for(int i = 0; i < auxVector[SMOOTH_REPEAT]; i++)
@@ -82,7 +82,7 @@ Group* MeshControl::gerateGroup(uint16_t *mesh, int var = 1){
             }break;
 
             case 4:{
-                cout << "   Suavizando" << endl;
+                cout << "   Smoothing" << endl;
                 int auxVector[] = {10, 25, 50, 100};
 
                 for(int i = 0; i < auxVector[SMOOTH_REPEAT]; i++){
@@ -93,7 +93,8 @@ Group* MeshControl::gerateGroup(uint16_t *mesh, int var = 1){
             }break;
         }
     }
-    
+
+    cout << endl;
     delete IDMatrix;
     return group;
 }
@@ -134,10 +135,10 @@ void MeshControl::gerateFaces(Group *group, int var){
 		for(unsigned int j = 0; j < 640-var; j+=var){
             
 			PAR = !PAR;
-			square[0] = IDMatrix[i*640 + j];				//Atual - 0
-			square[1] = IDMatrix[(i+var)*640 + j];			//Inferior - 1
-			square[2] = IDMatrix[(i+var)*640 + (j+var)]; 	//Proximo ao Inferior - 2
-			square[3] = IDMatrix[i*640 + (j+var)];          //Proximo - 3
+			square[0] = IDMatrix[i*640 + j];				//Current - 0
+			square[1] = IDMatrix[(i+var)*640 + j];			//Lower - 1
+			square[2] = IDMatrix[(i+var)*640 + (j+var)]; 	//Next Lower - 2
+			square[3] = IDMatrix[i*640 + (j+var)];          //Next - 3
             
 			if(PAR){
                 if(square[3] && square[1]){
